@@ -1,27 +1,7 @@
-html { 
-  background: url(../iglidhim.github.io/images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} 
-
 h1 {
   font-size: 2.5em;
   color: rgb(155, 133, 8);
 }
 h2 {
-  font-size: 1.5em;
-}
-h3 {
-  font-size: 1.5em;
-}
-h4 {
-  font-size: 1.5em;
-}
-h5 {
-  font-size: 1.5em;
-}
-h6 {
   font-size: 1.5em;
 }
