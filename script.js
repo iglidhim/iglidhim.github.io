@@ -6,10 +6,14 @@ const text = [
     { header: "5. Keep buttons from falling off:", para: "To keep your buttons in place, simply paint a bit of clear nail polish over the threads."},
   ];
 
-  for(let i = 0; i < text.length; i++) {
-      let h1 = text[i].getElementsById("h1");
-      let p1 = text[i].getElementsById("p1");
-      h1.innerText.appendChild(text[i].header);
-      p1.innerText.appendChild(text[i].para);
-      
+  let oldhead = document.getElementsByClassName('content');
+  ;
+
+  for(let i = 0; i < oldhead.length; i++) {
+    var h2 = oldhead[i].getElementsByTagName("h2")[0];
+    var p = oldhead[i].getElementsByTagName("p")[0];
+
+    h2.innerText = text[i].header;
+    p.innerText = text[i].para;
   }
+
